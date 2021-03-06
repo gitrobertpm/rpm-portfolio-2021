@@ -12,7 +12,6 @@ import About from './Components/About';
 import './css/App.css';
 import './css/about.css';
 import './css/media-query.css';
-import './css/animate.css';
 
 /* Main container component - redirects root to home route and handles undefined routes */
 const App = () => {
