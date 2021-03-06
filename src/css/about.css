@@ -457,6 +457,17 @@
   width: 100%;
 }
 
+.props-txt-box {
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+.props-txt {
+  text-align: justify;
+  padding: 25px;
+  background: rgba(250, 250, 255, 0.9);
+}
+
 .prop-box {
   color: white;
   max-width: 420px;

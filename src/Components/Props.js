@@ -11,6 +11,10 @@ const Props = () => {
 
       <h2 className="top-heading props-heading">Props</h2>
 
+      <div className="props-txt-box">
+        <p className="props-txt">To help demonstrate my contribution and compassion and hard work, I like to keep a log of those kind words that our students and my teammates have shared on my behalf.  The following statements were captured from Slack posts and emails I've received over the last four years.  Names represent Slack handles that have been edited in cases to ensure last names aren't being shared.</p>
+      </div>
+
       {
         propsData.map((prop, i) => {
           return (
