@@ -1,0 +1,177 @@
+[
+  {
+    "id": 0,
+    "title": "Custom Backup for the Random User API",
+    "description": [
+      "Multiple Treehouse Techdegree projects rely on the [Random User API](https://randomuser.me/) as a third party dependency.  But that API goes down from time to time, preventing students from testing and submitting their projects that rely on the API.", 
+      "So one day after work, after this occurred a few times, I took it upon myself to create my own custom backup API that could support the students when the Random User API goes offline.", 
+      "I used the Express App Generator and a JSON file with an object of arrays containing possible user data.  Additional APIs were used to supply random images.  Helper functions were created to grab random values from that JSON file, and assemble the info into a new random user object that resembled the schema from the Random User API responses that students are counting on.", 
+      "Lastly, I deployed to heroku, and before the night was done, I had created my own custom backup resource for the Random User API."
+    ],
+    "stack": [
+      "Node and Express to create the app",
+      "Simple JSON for the data",
+      "Custom markup and stylesheets",
+      "Heroku for the free hosting"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/fsjs-public-api-backup",
+      "api": "https://fsjs-public-api-backup.herokuapp.com/api",
+      "live": "https://gitrobertpm.github.io/random-user-client/"
+    },
+    "imgKey": "rubu"
+  },
+  {
+    "id": 1,
+    "title": "Truth Supreme REST API and React Front End",
+    "description": [
+      "REST API - The database has three models, each with associations to the other two, and utilizes the builtin ORM validation.  API includes user registration and authorization.  Route handlers provide all the CRUD functionality to sign up, create and update content, and even vote on created content.  Complete with my own custom seeder and migration files so a single command can reset the DB with starter data for testing and development purposes.", 
+      "Client - A robust React front end to consume the above REST API is under development and I'm experimenting with it.  The images here show a few pages of the app in dark mode.  Once all the network requests are developed to."
+    ],
+    "stack": [
+      "Create React App for a kick start",
+      "BrowserRouter for the routing and history",
+      "Functional components and hooks for state and lifecycle",
+      "Custom CSS with dark/lite theme and numerous color, accent and background options",
+      "Node and Express to create the REST api",
+      "Sqlite for development DB and seeders and migrations",
+      "Postgress for production DB",
+      "Sequelize for the ORM validation and CRUD",
+      "Async await with try catch for async operations",
+      "Modular middleware, error handling and route handling",
+      "Heroku for the free hosting",
+      "Will use Netlify for the free hosting when the time comes"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/truth-api",
+      "api": "https://truth-api-rpm.herokuapp.com/api/truths"
+    },
+    "imgKey": "ts"
+  },
+  
+  {
+    "id": 2,
+    "title": "React Flickr Gallery",
+    "description": [
+      "Used Create React App to start this project.  Created a Flickr account to get a key to query their API.  Key is defined in environment variables: local for development and via Netlify for production.",
+      "App uses only functional components with hooks for managing state and lifecycle events.  All state is mainly managed in container components.  The application listens for changes to the URL and then updates, searches and displays results as needed. Three default searches results can be viewed by clicking nav buttons.  Search feature lets the user perform custom searches for Flickr images.  No search results and undefined routes are handled."
+    ],
+    "stack": [
+      "Initialized with Create React App",
+      "Few Adjustments to the provided HTML and CSS",
+      "Create React App for a kick start",
+      "BrowserRouter for the routing and history",
+      "Functional components and hooks for state and lifecycle",
+      "Custom environment variables for the private key",
+      "Netlify for the free hosting"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/my-flickr-search-app",
+      "live": "https://quirky-noyce-313f11.netlify.app/"
+    },
+    "imgKey": "rfg"
+  },
+  {
+    "id": 3,
+    "title": "Code Crossword",
+    "description": [
+      "One day I was looking for a fun project idea for some good code practice while also looking for a way to create something work-related that might be useful to the students I've been mentoring.  And I got to thinking about how there's so much vocabulary to absorb when learning to code.", 
+      "This reminded that I had long wanted to code up a custom dynamic crossword puzzle just to see if I could.  So I went with a basic MVC approach and created one file to hold an object of puzzle objects containing all the clues and answers. And one file to handle the main puzzle functionality.  And one file to handle updating the display.  And one main script file to wire it all up and listen for user interaction.", 
+      "I'm proud of the end results, but it required more nested loops than I would like to see.  And I know I could find ways to stream line this.  So I plan on revisiting and refactoring if not rebuilding this app entirely at some point.  But in the meantime, this is still a pretty cool and attractive accomplishment, I think."
+    ],
+    "stack": [
+      "HTML",
+      "Custom CSS",
+      "JS",
+      "MVC"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/fsjs-crosswords",
+      "live": "https://gitrobertpm.github.io/fsjs-crosswords/"
+    },
+    "imgKey": "cw"
+  },
+  {
+    "id": 4,
+    "title": "EZ Hold 'Em",
+    "description": [
+      "Creating my own custom Hold 'Em game has sort of been my white whale.  When I first developed some basic competency with JavaScript, I started trying to create a Hold 'Em game.  But I couldn't get passed creating a shuffled deck.  So I tabled it for a while until I could level up my skills some more.", 
+      "Then, some time later, after my skills had grown, I tried again. I used some OOP to create JS classes for cards, the deck, the dealer, the players and the table.  And I used a sort of MVC approach to control the display.  I got as far as creating and displaying the table, the players, the cards and the blinds.  I created a simple but pleasant UI for starting the game and taking turns.  And game play transitions from one player to the next, following the procedures of Hold 'Em.", 
+      "But I hit a road block figuring out winning hands.  So I stepped away without adding chips and betting and declaring a winner.  But I intend to revisit this at some point when there's time and finish the game."
+    ],
+    "stack": [
+      "HTML",
+      "Custom CSS",
+      "JS",
+      "OOP & JS Classes",
+      "MVC"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/ez-holdem",
+      "live": "https://gitrobertpm.github.io/ez-holdem/"
+    },
+    "imgKey": "he"
+  },
+  {
+    "id": 5,
+    "title": "Treehouse TD Project Warm Ups",
+    "description": [
+      "Many Treehouse Techdegree students are very new to code, and it's not uncommon for those newcomers to struggle with just getting through the first few projects.  So I was looking for a way to bridge that gap and help better support those students without depriving them of any necessary growing pains or valuable learning experiences.  Thus were invented the Treehouse Techdegree Project Warm Up.", 
+      "These are basic guided coding exercise consisting of a simple front end project containing uncomplicated markup, clean professional styling, and custom tests to validate results.", "Students are provided with basic instructions in the README.md file and then more detailed directions JS comments in a script file.", "I created more than a dozen of these supportive exercises to help students in the first few units, and they have received tremendous feedback."
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS",
+      "Custom testing"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/td-warm-ups",
+      "live": "https://gitrobertpm.github.io/td-warm-ups/"
+    },
+    "imgKey": "tdwu"
+  },
+  {
+    "id": 6,
+    "title": "Trivia",
+    "description": [
+      "Perhaps my favorite project warm up that I created for the FSJS Techdegree was the Trivia project.", 
+      "Student were having trouble creating a modal from asynchronously collected data.  So I leveraged the https://opentdb.com/api_config.php API and built a basic front that displayed the trivia questions and guided students on how to create a modal to display the answers as desired."
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JS",
+      "Async",
+      "API requests"
+    ],
+    "links": {
+      "repo": "https://github.com/gitrobertpm/simple-trivia-client",
+      "live": "https://gitrobertpm.github.io/simple-trivia-client/"
+    },
+    "imgKey": "triv"
+  },
+  {
+    "id": 0,
+    "title": "This Portfolio",
+    "description": [
+      "Basic React web app to showcase a few things I've built, some of what I'm capable of and the type of person I am."
+    ],
+    "stack": [
+      "Create React App for a kick start",
+      "BrowserRouter for the routing and history",
+      "Functional components and hooks for state and lifecycle",
+      "JSON for modularization and convenient data tracking and updating",
+      "Custom, modern, responsive, mobile-first, CSS",
+      "Google fonts",
+      "Leveraged Google Forms for the contact",
+      "Affinity Designer for image optimization",
+      "GitHub for version control",
+      "Netlify for the free hosting"
+    ],
+    "links": {
+      "repo": ""
+    },
+    "imgKey": "port"
+  }
+]

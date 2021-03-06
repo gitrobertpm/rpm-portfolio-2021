@@ -1,0 +1,79 @@
+[
+  {
+    "id": 5,
+    "date": "Presently",
+    "title": "Still rocking the Full Stack JavaScript Techdegree",
+    "description": "Currently, and for about the last three years, I've been working as a Full Stack JavaScript Techdegree coordinator and Student Success Specialist for Treehouse, the online educational platform.  That means I help design and create the software, programs, projects, and all supporting material for the Full Stack JavaScript Techdegree, our online version of a coding bootcamp.  It also means I support students by reviewing their projects, helping them debug those projects, and mentoring them through the more challenging aspects of the learning process.  In this role, I regularly use Slack, GitHub, Mode, JIRA, Confluence, AWS s3 and Zoom. It's been a blast and I've learned a ton.  But as much as I've enjoyed mentoring students and developing curriculum, it's the problem solving and writing code that draws my true passion.  As a consequence, my aspirations are to transition into a developer role.",
+    "bullets": {
+      "heading": "Current Job Stats",
+      "points": [  
+        "4,300+ front end and full stack student submitted projects reviewed.", 
+        "Thousands of projects debugged.",
+        "Thousands of students mentored.",
+        "Dozens of coding exercises created.",
+        "Invented and implemented Techdegree project warm up feature.",
+        "Co-created the Techdegree Office Hours and Slack Champion programs.",
+        "Helped to create and curate dozens of Techdegree projects including front end and back end code, instructions, study guides, walkthroughs, practice sessions, etc."
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "date": "2018 - March",
+    "title": "Moved from Front End to Full Stack",
+    "description": "Leveled up to the Senior Student Success specialist and coordinator in charge of the Full Stack JavaScript Techdegree.",
+    "bullets": {
+      "heading": "Previous duties +",
+      "points": [
+        "Create, review and collaborate on Techdegree curriculum and projects.", 
+        "Create and experiment with new programs to promote student success and increase conversion and retention rates."
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "date": "2017 - October",
+    "title": "Promoted to full-time",
+    "description": "Moved up to full-time Senior Student Success specialist and coordinator in charge of the Front End Web Development Techdegree.",
+    "bullets": {
+      "heading": "Previous duties +",
+      "points": [
+        "Create, curate and document team processes.",
+        "Help interview, hire and train new team members."
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "date": "2017 - February",
+    "title": "Promoted from contractor to employee",
+    "description": "Once a position on the team opened up, Treehouse made me a part-time Junior Student Success Specialist supporting both the Front End Web Development and Full Stack JavaScript Techdegrees.",
+    "bullets": {
+      "heading": "Previous duties +",
+      "points": [
+        "Review, track and report on Techdegree analytics.",
+        "Use GitHub, Mode, JIRA, Confluence, AWS s3 and Zoom.", 
+        "Administrative tasks and team meetings."
+      ]
+    } 
+  },
+  {
+    "id": 1,
+    "date": "2016 - March",
+    "title": "Got my first code-related gig",
+    "description": "Earned a part-time contractor role at Treehouse, working on the brand new Front End Techdegree.",
+    "bullets": {
+      "heading": "Duties",
+      "points": [
+        "Review, evaluate and grade student code and project submissions.", 
+        "Live debugging and mentoring in Slack support community."
+      ]
+    }
+  },
+  {
+    "id": 0,
+    "date": "2014 - June",
+    "title": "Discovered that I could learn to code",
+    "description": "Began studying front end web development and design. Signed up for Treehouse, Codecademy and Udacity.  Fell in love with programming."
+  }
+]
