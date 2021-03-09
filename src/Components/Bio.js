@@ -44,9 +44,9 @@ const Bio = () => {
 
         <p>I've been studying web development since 2014.  Fell in love with it right away.  Been working in this industry since 2016, writing and debugging code and helping others learn to do the same.</p>
         <br />
-        <p>Now I'm all about trying to do good things.  I just want to work hard and have a good time and hopefully make things better in the process.</p>
+        <p>Now I'm all about trying to work hard, have a good time and hopefully make things better in the process.</p>
         <br />
-        <p>Problem solving and overcoming challenges are among my greatest motivators.  Finding solutions and solving puzzles really light my fire.  And I love spending hours working on a project, or any number of them.</p>
+        <p>Problem solving and overcoming challenges are among my greatest motivators.  Finding solutions and solving puzzles really light my fire.  And I love spending hours working on a project and diving into the code.</p>
         <br />
         <p>And when I'm not doing that, I love to learn and create and spend time with my family.  I love to watch movies and read and play the guitar and play video games.  I love to research the meaning of life and truth and the true nature of reality and the human condition and experience.  And I love to seek out magical moments and howl at the moon when time and the situation permits. <span>😎</span></p>
 
