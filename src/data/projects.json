@@ -159,7 +159,7 @@
     "title": "Trivia",
     "description": [
       "Perhaps my favorite project warm up that I created for the FSJS Techdegree was the Trivia project.", 
-      "Student were having trouble creating a modal from asynchronously collected data.  So I leveraged the https://opentdb.com/api_config.php API and built a basic front that displayed the trivia questions and guided students on how to create a modal to display the answers as desired."
+      "Student were having trouble creating a modal from asynchronously collected data.  So I leveraged the [Opentdb](https://opentdb.com/api_config.php) API and built a basic front end that displays the trivia questions and guided students on how to create a modal to display the answers as desired."
     ],
     "stack": [
       "HTML",
