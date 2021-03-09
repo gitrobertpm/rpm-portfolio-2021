@@ -3,7 +3,7 @@
     "id": 101,
     "title": "This Portfolio",
     "description": [
-      "Basic React web app to showcase a few things I've built, some of what I'm capable of and the type of person I am."
+      "React portfolio to showcase a few things I've built, some of what I'm capable of and the type of work I like to do."
     ],
     "stack": [
       "Create React App for a kick start",
