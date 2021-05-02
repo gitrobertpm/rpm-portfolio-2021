@@ -1,5 +1,4 @@
 
-.proj-link-wrapper a,
 .about-container a {
   position: relative;
   perspective: 750px;
@@ -22,7 +21,6 @@
   filter: drop-shadow(1px 1px 3px rgba(255, 99, 71, 0.5));
 }
 
-.proj-link-wrapper a:hover,
 .about-container a:hover {
   color: tomato;
   background:rgba(255, 99, 71, 0.1);
@@ -31,19 +29,12 @@
   filter: drop-shadow(1px 1px 3px rgba(255, 99, 71, 0.5));
 }
 
-.projects-container,
 .about-container {
   min-height: 100vh;
   padding-top: 35px;
   padding-bottom: 25px;
   background: linear-gradient(to bottom right, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.95) 25%, rgba(255, 255, 255, 0.95) 75%, transparent 75%);
   background-attachment: fixed;
-}
-
-.projects-retainer {
-  width: 100%;
-  max-width: 1024px;
-  margin: auto;
 }
 
 .about-header {
@@ -162,6 +153,7 @@
 .contact-heading,
 .bio-heading {
   color: rgba(0, 191, 255, 0.99);
+  background: none;
 }
 
 .bio p {
@@ -183,7 +175,6 @@
   z-index: -9;
 }
 
-.project,
 .exp-item {
   max-width: 1024px;
   padding: 25px;
@@ -195,31 +186,18 @@
   transition: all 0.4s ease-out;
 }
 
-.project:hover,
 .exp-item:hover {
   border-bottom: 1px solid rgba(0, 191, 255, 0.3);
   box-shadow: 1px 1px 5px rgba(0, 191, 255, 0.3);
-}
-
-.project-title {
-  color: tomato;
 }
 
 .exp-title {
   color: rgba(0, 191, 255, 0.99);
 }
 
-.project-description,
 .exp-description {
   text-align: justify;
   margin: 25px auto;
-}
-
-.project-description a {
-  color:rgba(0, 191, 255, 0.7);
-  margin: auto;
-  padding: 0;
-  border: none;
 }
 
 .exp-disclaimer {
@@ -246,7 +224,6 @@
   color: rgba(0, 191, 255, 0.99);
 }
 
-.project ul,
 .exp-item ul {
   list-style: none;
   color: rgba(0, 191, 255, 0.9);
@@ -261,7 +238,6 @@
   max-width: 684px;
 }
 
-.project ul li::before,
 .exp-item ul li::before {
   content: "\2022";
   font-weight: bold;
@@ -274,88 +250,12 @@
   color: rgba(0, 191, 255, 0.9);
 }
 
-.project ul li::before {
-  color: tomato;
-}
-
-.proj-img-box {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background: rgba(250, 250, 255, 0.99);
-  border-radius: 4px 4px 0 0;
-  border-bottom: 3px solid tomato;
-}
-
-.project img {
-  cursor: pointer;
-  width: 150px;
-  margin: 10px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 3px 3px 0 0;
-  border-bottom: 3px solid tomato;
-  border: 1px solid rgba(0, 0, 10, 0.9);
-  transition: all 0.4s ease-out;
-  overflow: none;
-}
-
-.project li {
-  margin: 7px auto;
-}
-
-.proj-img-box button {
-  display: none;
-}
-
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding-top: 50px;
-  background:rgba(0, 0, 50, 0.7);
-  z-index: 9999;
-  transition: all 0.4s ease-out;
-  overflow-y: auto;
-  backdrop-filter: blur(4px);
-}
-
-.modal img {
-  min-width: 350px;
-  background: rgba(255, 255, 255, 0.9);
-  border-radius: 3px;
-  border: 2px solid rgba(255, 255, 255, 0.9);
-  z-index: 99999;
-  filter: drop-shadow(0 0 0 transparent);
-  transition: all 0.4s ease-out;
-}
-
-.modal button {
-  cursor: pointer;
-  color: tomato;
-  font-weight: bolder;
-  display: block;
-  position: fixed;
-  top: 8px;
-  right: 8px;
-  width: 42px;
-  height: 42px;
-  background:rgba(0, 0, 50, 0.9);
-  border-radius: 4px;
-  border: 1px solid tomato;
-  z-index: 99999;
-  filter: drop-shadow(2px 2px 10px rgba(255, 99, 71, 0.3));
-  transition: all 0.4s ease-out;
-  animation: closeBtnPulse 2s ease-in-out infinite;
-}
-
 .contact form {
   display: flex;
   flex-flow: column;
   text-align: left;
   max-width: 420px;
   margin: auto;
-  /* border: 1px solid red; */
 }
 
 .contact label {
@@ -384,20 +284,16 @@
   padding-left: 10px;
   background:rgba(250, 250, 255, 1);
   border-radius: 4px 0 0 0;
-  /* border: 1px solid lime; */
 }
 
 .contact input,
 .contact textarea {
   flex-grow: 2;
-  /* margin-left: 10px; */
-  
   padding-left: 5px;
   background:rgba(250, 250, 255, 1);
   border-radius: 0 4px 0 0;
   border: none;
   outline: none;
-  /* width: 100%; */
 }
 
 .contact textarea {
@@ -428,7 +324,6 @@
   background:rgba(255, 99, 71, 0.1);
   border-bottom: 2px solid rgba(255, 99, 71, 0.9);
   box-shadow: 3px 3px 5px rgba(255, 99, 71, 0.3) inset, -3px -3px 5px rgba(255, 99, 71, 0.3) inset;
-  /* filter: drop-shadow(1px 1px 3px rgba(255, 99, 71, 0.5)); */
 }
 
 .contact p {

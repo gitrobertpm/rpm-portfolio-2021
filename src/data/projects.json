@@ -1,122 +1,161 @@
 [
   {
-    "id": 101,
-    "title": "This Portfolio",
-    "description": [
-      "React portfolio to showcase a few things I've built, some of what I'm capable of and the type of work I like to do."
-    ],
-    "stack": [
-      "Create React App for a kick start",
-      "BrowserRouter for the routing and history",
-      "Functional components and hooks for state and lifecycle",
-      "JSON for modularization and convenient data tracking and updating",
-      "Custom, modern, responsive, mobile-first, CSS",
-      "Google fonts",
-      "Leveraged Google Forms for the contact",
-      "Affinity Designer for image optimization",
-      "GitHub for version control",
-      "Netlify for the free hosting"
-    ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/rpm-portfolio-2021"
-    },
-    "imgKey": "port"
-  },
-  {
     "id": 0,
-    "title": "Custom Backup for the Random User API",
+    "title": "The Truth Supreme",
+    "shortDescription": "A full stack social web app with a customizable UI where users can sign up, sign in, post and edit content and vote on content posted by others.",
     "description": [
-      "Multiple Treehouse Techdegree projects rely on the [Random User API](https://randomuser.me/) as a third party dependency.  But that API goes down from time to time, preventing students from testing and submitting their projects that rely on the API.", 
-      "So one day after work, after this occurred a few times, I took it upon myself to create my own custom backup API that could support the students when the Random User API goes offline.", 
-      "I used the Express App Generator and a JSON file with an object of arrays containing possible user data.  Additional APIs were used to supply random images.  Helper functions were created to grab random values from that JSON file, and assemble the info into a new random user object that resembled the schema from the Random User API responses that students are counting on.", 
-      "Lastly, I deployed to heroku, and before the night was done, I had created my own custom backup resource for the Random User API."
+      "The primary purpose behind this project was to demo what I can build.  But it was also something of a fun passion project.",
+      "The back end is a Node and SQL REST API, leveraging the Express framework and Sequelize ORM.  The database consists of three tables, each with associations to the other two, utilizing Sequelize's builtin validation, UUIDv4 for primary keys, and custom migrations and seeders.", 
+      "The front end is a robust React SPA to consume the above REST API, using modern React techniques like functional components and lifecycle hooks."
     ],
     "stack": [
-      "Node and Express to create the app",
-      "Simple JSON for the data",
-      "Custom markup and stylesheets",
-      "Heroku for the free hosting"
+      "Create React App with BrowserRouter",
+      "Functional components with React hooks for state and lifecycle events",
+      "Original CSS for a customizable UI with a dark/lite theme and numerous color, accent and background options",
+      "Node and Express REST API",
+      "Sequelize ORM for validation, CRUD, migrations and seeders",
+      "Sqlite for development DB",
+      "Postgress for production DB",
+      "Async await with try catch for async operations",
+      "Modular middleware for error handling, route handling, eager loading, async operations, user authorization, and UUID creation for seeder files.",
+      "Heroku with a hobby dyno and heroku-postgres for the back end hosting",
+      "Netlify for the front end hosting"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/fsjs-public-api-backup",
-      "api": "https://fsjs-public-api-backup.herokuapp.com/api",
-      "live": "https://gitrobertpm.github.io/random-user-client/"
-    },
-    "imgKey": "rubu"
+    "links": [
+      {
+        "name": "API repo",
+        "url": "https://github.com/gitrobertpm/truthsupreme-2"
+      },
+      {
+        "name": "Client repo",
+        "url": "https://github.com/gitrobertpm/truth-api"
+      },
+      {
+        "name": "Live",
+        "url": "https://truthsupreme.netlify.app/"
+      }
+    ],
+    "imgKey": "ts"
   },
   {
     "id": 1,
-    "title": "Truth Supreme REST API and React Front End",
+    "title": "A Random User API",
+    "shortDescription": "A public API that generates random user data to help students and developers test their front ends.",
     "description": [
-      "REST API - The database has three models, each with associations to the other two, and utilizes the builtin ORM validation.  API includes user registration and authorization.  Route handlers provide all the CRUD functionality to sign up, create and update content, and even vote on created content.  Complete with my own custom seeder and migration files so a single command can reset the DB with starter data for testing and development purposes.", 
-      "Client - A robust React front end to consume the above REST API is under development and I'm experimenting with it.  The images here show a few pages of the app in dark mode.  Once all the network requests are developed to."
+      "This project was built to help the students I mentor.  One of their school projects relies on the [Random User API](https://randomuser.me/) as a third party dependency.  That API is great, but it went offline periodically, which created a need for a backup API", 
+      "So one day after work, when the API was down, I took it upon myself to build my own.  I created a JSON file with an object of arrays containing possible user data.  Additional APIs were used to supply random user images.  I crafted some helper functions to grab random values from the JSON and assemble the info into a new random user object that resembled the schema from the Random User API responses that students were used to using.", 
+      "Lastly, I deployed to heroku, and before the next, I had a fully functional backup for the Random User API."
     ],
     "stack": [
-      "Create React App for a kick start",
-      "BrowserRouter for the routing and history",
-      "Functional components and hooks for state and lifecycle",
-      "Custom CSS with dark/lite theme and numerous color, accent and background options",
-      "Node and Express to create the REST api",
-      "Sqlite for development DB and seeders and migrations",
-      "Postgress for production DB",
-      "Sequelize for the ORM validation and CRUD",
-      "Async await with try catch for async operations",
-      "Modular middleware, error handling and route handling",
-      "Heroku for the free hosting",
-      "Will use Netlify for the free hosting when the time comes"
+      "Node.js",
+      "Express framework",
+      "Express App Generator module",
+      "JSON for original data store",
+      "Functional JS for retrieving random data for JSON store",
+      "Heroku for hosting the API",
+      "Basic markup, responsive stylesheets and ES6 JS for a simple example client to consume the API",
+      "GitHub Pages for hosting the front example "
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/truth-api",
-      "api": "https://truth-api-rpm.herokuapp.com/api/truths"
-    },
-    "imgKey": "ts"
+    "links": [
+      {
+        "name": "API repo",
+        "url": "https://github.com/gitrobertpm/fsjs-public-api-backup"
+      },
+      {
+        "name": "Client repo",
+        "url": "https://github.com/gitrobertpm/random-user-client"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/random-user-client/"
+      }
+    ],
+    "imgKey": "rubu"
   },
-  
   {
     "id": 2,
-    "title": "React Flickr Gallery",
+    "title": "My Portfolio",
+    "shortDescription": "A React SPA portfolio showcasing my work.",
     "description": [
-      "Used Create React App to start this project.  Created a Flickr account to get a key to query their API.  Key is defined in environment variables: local for development and via Netlify for production.",
-      "App uses only functional components with hooks for managing state and lifecycle events.  All state is mainly managed in container components.  The application listens for changes to the URL and then updates, searches and displays results as needed. Three default searches results can be viewed by clicking nav buttons.  Search feature lets the user perform custom searches for Flickr images.  No search results and undefined routes are handled."
+      "I utilized modern React and JavaScript techniques to craft this portfolio to showcase my skills, creativity, what I like to do, and some of the things I've built over the last few years."
     ],
     "stack": [
-      "Initialized with Create React App",
-      "Few Adjustments to the provided HTML and CSS",
-      "Create React App for a kick start",
-      "BrowserRouter for the routing and history",
-      "Functional components and hooks for state and lifecycle",
-      "Custom environment variables for the private key",
-      "Netlify for the free hosting"
+      "Create React App with BrowserRouter",
+      "Functional components and hooks for state and lifecycle events",
+      "JSON for modularization and convenient data tracking and updating",
+      "Custom, responsive, mobile-first CSS with grid and flexbox layout",
+      "Google fonts, and Google Forms for the contact component",
+      "Affinity Designer for image creation and optimization",
+      "Netlify"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/my-flickr-search-app",
-      "live": "https://quirky-noyce-313f11.netlify.app/"
-    },
-    "imgKey": "rfg"
+    "links": [
+      {
+        "name": "repo",
+        "url": "https://github.com/gitrobertpm/rpm-portfolio-2021"
+      }
+    ],
+    "imgKey": "port"
   },
   {
     "id": 3,
-    "title": "Code Crossword",
+    "title": "React Flickr Gallery",
+    "shortDescription": "A React SPA for retrieving photos from the Flickr API.",
     "description": [
-      "One day I was looking for a fun project idea for some good code practice while also looking for a way to create something work-related that might be useful to the students I've been mentoring.  And I got to thinking about how there's so much vocabulary to absorb when learning to code.", 
-      "This reminded that I had long wanted to code up a custom dynamic crossword puzzle just to see if I could.  So I went with a basic MVC approach and created one file to hold an object of puzzle objects containing all the clues and answers. And one file to handle the main puzzle functionality.  And one file to handle updating the display.  And one main script file to wire it all up and listen for user interaction.", 
-      "I'm proud of the end results, but it required more nested loops than I would like to see.  And I know I could find ways to stream line this.  So I plan on revisiting and refactoring if not rebuilding this app entirely at some point.  But in the meantime, this is still a pretty cool and attractive accomplishment, I think."
+      "This is one of the projects built by the students I mentor.  So I built my own version to better understand the project and help students debug their own projects.",
+      "Create React App was used to start this project.  I created a Flickr account to acquire a key to query their API, which is defined in environment variables: local for development and via Netlify for production.",
+      "App uses only functional components with hooks for managing state and lifecycle events.  All state is mainly managed in container components, with data passed down to stateless presentational components.  The application listens for changes to the URL and then updates, searches and displays results as needed. No search results and undefined routes are handled gracefully."
     ],
     "stack": [
-      "HTML",
-      "Custom CSS",
-      "JS",
-      "MVC"
+      "Create React App with BrowserRouter",
+      "Functional components and hooks for state and lifecycle events",
+      "Fetch, async/await and try catch blocks for reliably retrieving API data",
+      "Custom environment variables for securely using my Flickr private key",
+      "Hosted on Netlify"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/fsjs-crosswords",
-      "live": "https://gitrobertpm.github.io/fsjs-crosswords/"
-    },
-    "imgKey": "cw"
+    "links":[
+      {
+        "name": "repo",
+        "url": "https://github.com/gitrobertpm/my-flickr-search-app"
+      },
+      {
+        "name": "Live",
+        "url": "https://quirky-noyce-313f11.netlify.app/"
+      }
+    ],
+    "imgKey": "rfg"
   },
   {
     "id": 4,
+    "title": "Code Crossword",
+    "shortDescription": "A front end crossword app to provide students with a fun way to practice their coding vocabulary.",
+    "description": [
+      "Coding a custom crossword puzzle had been a goal of mine, and I had been looking for a fun way to help the students I mentor practice their coding vocabulary.",
+      "This project was the result of those crossed efforts.  I used a basic MVC/OOP approach and created one file to hold an object of puzzle objects containing all the clues and answers, one file to handle the main puzzle functionality, one file to handle updating the UI, and one main script file to wire it all up and listen for user interaction.", 
+      "I'm proud of the end results, but it required more nested loops than I would like to see.  And I know I could find ways to streamline this.  So it is my hope that one day I'll find the time to revisit and refactor this one to improve the code, and perhaps to create a crossword generator feature that lets users enter words and clues into a form in order to produce their own custom crosswords that they could share with friends."
+    ],
+    "stack": [
+      "HTML",
+      "Responsive CSS using Flexbox, CSS variables and custom UI components",
+      "ES6 JavaScript",
+      "OOP programming principles",
+      "MVC application design approach"
+    ],
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/fsjs-crosswords"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/fsjs-crosswords/"
+      }
+    ],
+    "imgKey": "cw"
+  },
+  {
+    "id": 5,
     "title": "EZ Hold 'Em",
+    "shortDescription": "A Texas Hold 'Em hand simulator.",
     "description": [
       "Creating my own custom Hold 'Em game has sort of been my white whale.  When I first developed some basic competency with JavaScript, I started trying to create a Hold 'Em game.  But I couldn't get passed creating a shuffled deck.  So I tabled it for a while until I could level up my skills some more.", 
       "Then, some time later, after my skills had grown, I tried again. I used some OOP to create JS classes for cards, the deck, the dealer, the players and the table.  And I used a sort of MVC approach to control the display.  I got as far as creating and displaying the table, the players, the cards and the blinds.  I created a simple but pleasant UI for starting the game and taking turns.  And game play transitions from one player to the next, following the procedures of Hold 'Em.", 
@@ -129,15 +168,22 @@
       "OOP & JS Classes",
       "MVC"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/ez-holdem",
-      "live": "https://gitrobertpm.github.io/ez-holdem/"
-    },
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/ez-holdem"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/ez-holdem/"
+      }
+    ],
     "imgKey": "he"
   },
   {
-    "id": 5,
-    "title": "Treehouse TD Project Warm Ups",
+    "id": 6,
+    "title": "Project Warm Ups",
+    "shortDescription": "A collection of front end coding exercises I designed and built to support the students I mentor.",
     "description": [
       "Many Treehouse Techdegree students are very new to code, and it's not uncommon for those newcomers to struggle with just getting through the first few projects.  So I was looking for a way to bridge that gap and help better support those students without depriving them of any necessary growing pains or valuable learning experiences.  Thus were invented the Treehouse Techdegree Project Warm Up.", 
       "These are basic guided coding exercise consisting of a simple front end project containing uncomplicated markup, clean professional styling, and custom tests to validate results.", "Students are provided with basic instructions in the README.md file and then more detailed directions JS comments in a script file.", "I created more than a dozen of these supportive exercises to help students in the first few units, and they have received tremendous feedback."
@@ -148,15 +194,22 @@
       "JS",
       "Custom testing"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/td-warm-ups",
-      "live": "https://gitrobertpm.github.io/td-warm-ups/"
-    },
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/td-warm-ups"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/td-warm-ups/"
+      }
+    ],
     "imgKey": "tdwu"
   },
   {
-    "id": 6,
-    "title": "Trivia",
+    "id": 7,
+    "title": "Trivia Time",
+    "shortDescription": "A basic trivia app I built to help the students I mentor better understand how to create a modal window to display data retrieved asynchronously from a public API.",
     "description": [
       "Perhaps my favorite project warm up that I created for the FSJS Techdegree was the Trivia project.", 
       "Student were having trouble creating a modal from asynchronously collected data.  So I leveraged the [Opentdb](https://opentdb.com/api_config.php) API and built a basic front end that displays the trivia questions and guided students on how to create a modal to display the answers as desired."
@@ -168,10 +221,16 @@
       "Async",
       "API requests"
     ],
-    "links": {
-      "repo": "https://github.com/gitrobertpm/simple-trivia-client",
-      "live": "https://gitrobertpm.github.io/simple-trivia-client/"
-    },
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/simple-trivia-client"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/simple-trivia-client/"
+      }
+    ],
     "imgKey": "triv"
   }
 ]

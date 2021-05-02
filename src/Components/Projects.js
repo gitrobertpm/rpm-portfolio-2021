@@ -32,7 +32,7 @@ const Projects = () => {
   /* Connect imported images with their respective projects */
   const imgObj = {
     port: [portHome],
-    ts: [tsHome, tsSettings, tsTruths, tsTruth],
+    ts: [tsHome, tsSettings, tsTruths],
     rubu: [ruBuJson, ruBuReadme, ruBuSample],
     cw: [cwMath, cwOne, cwTwo],
     triv: [trivQue, trivAns],
@@ -54,11 +54,10 @@ const Projects = () => {
                 key={i}
                 id={proj.id}
                 title={proj.title}
+                shortDescription={proj.shortDescription}
                 description={proj.description}
                 stack={proj.stack}
-                repo={proj.links.repo}
-                live={proj.links.live && proj.links.live}
-                api={proj.links.api && proj.links.api}
+                links={proj.links}
                 imgs={proj.imgKey ? imgObj[proj.imgKey] : null}
               />
             );

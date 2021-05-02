@@ -19,6 +19,10 @@ const Project = (props) => {
       
       <h2 className="project-title flex-child">{props.title}</h2>
 
+      {
+        props.shortDescription && <p className="proj-short-description">{ props.shortDescription }</p>
+      }
+
       <div className="proj-img-wrapper flex-child">
         <div className={ modOpen ? "modal" : "proj-img-box"}>
           <button type="button" onClick={ handleModal }>X</button>
@@ -33,11 +37,15 @@ const Project = (props) => {
         </div>
       </div>
 
-      <div className="proj-detail-wrapper flex-child">
+      <div className="proj-link-wrapper flex-child">
+        {/* <h3>Project Links</h3> */}
         {
-          props.description && 
-          props.description.map((desc, i) => <ReactMarkdown className="project-description" key={i} children={desc} />)
+          props.links.map((link, i) => <a href={ link.url } target="_blank" rel="noreferrer" key={i}>{link.name}</a>)
         }
+      </div>
+
+      <div className="proj-detail-wrapper flex-child">
+        <h3>Technologies and techniques</h3>
         <ul>
           {
             props.stack &&
@@ -46,15 +54,11 @@ const Project = (props) => {
         </ul>
       </div>
 
-      <div className="proj-link-wrapper flex-child">
-        <a href={ props.repo } target="_blank" rel="noreferrer">Repo</a>
+      <div className="proj-desc-wrapper">
+        <h3>Description</h3>
         {
-          props.api && 
-          (() => <a href={ props.api } target="_blank" rel="noreferrer">API</a>)() 
-        }
-        {
-          props.live && 
-          (() => <a href={ props.live } target="_blank" rel="noreferrer">Live</a>)() 
+          props.description && 
+          props.description.map((desc, i) => <ReactMarkdown className="project-description" key={i} children={desc} />)
         }
       </div>
     </div>

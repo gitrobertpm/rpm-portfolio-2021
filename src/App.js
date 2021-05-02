@@ -10,6 +10,7 @@ import About from './Components/About';
 
 /* Stylesheets imports */
 import './css/App.css';
+import './css/project.css';
 import './css/about.css';
 import './css/media-query.css';
 
