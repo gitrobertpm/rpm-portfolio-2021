@@ -9,7 +9,6 @@ import projectsData from '../data/projects.json';
 import portHome from '../img/projects/port-home.PNG';
 import tsHome from '../img/projects/ts-home.PNG';
 import tsSettings from '../img/projects/ts-settings.PNG';
-import tsTruth from '../img/projects/ts-truth.PNG';
 import tsTruths from '../img/projects/ts-truths.PNG';
 import ruBuJson from '../img/projects/ru-bu-json.PNG';
 import ruBuReadme from '../img/projects/ru-bu-readme.PNG';
