@@ -166,6 +166,7 @@
     "stack": [
       "HTML",
       "Responsive, mobile-first CSS",
+      "Sass",
       "ES6 JS",
       "DOM manipulation and traversal",
       "Event handling",
