@@ -11,7 +11,7 @@
     "stack": [
       "Create React App with BrowserRouter",
       "Functional components with React hooks for state and lifecycle events",
-      "Original CSS for a customizable UI with a dark/lite theme and numerous color, accent and background options",
+      "Original responsive and mobile-first CSS for a customizable UI with a dark/lite theme and numerous color, accent and background options",
       "Node and Express REST API",
       "Sequelize ORM for validation, CRUD, migrations and seeders",
       "Sqlite for development DB",
@@ -54,7 +54,7 @@
       "Functional JS for retrieving random data for JSON store",
       "Heroku for hosting the API",
       "Basic markup, responsive stylesheets and ES6 JS for a simple example client to consume the API",
-      "GitHub Pages for hosting the front example "
+      "GitHub Pages for hosting the front end example "
     ],
     "links": [
       {
@@ -86,7 +86,7 @@
       "Custom, responsive, mobile-first CSS with grid and flexbox layout",
       "Google fonts, and Google Forms for the contact component",
       "Affinity Designer for image creation and optimization",
-      "Netlify"
+      "Hosted on Netlify"
     ],
     "links": [
       {
@@ -130,15 +130,18 @@
     "shortDescription": "A front end crossword app to provide students with a fun way to practice their coding vocabulary.",
     "description": [
       "Coding a custom crossword puzzle had been a goal of mine, and I had been looking for a fun way to help the students I mentor practice their coding vocabulary.",
-      "This project was the result of those crossed efforts.  I used a basic MVC/OOP approach and created one file to hold an object of puzzle objects containing all the clues and answers, one file to handle the main puzzle functionality, one file to handle updating the UI, and one main script file to wire it all up and listen for user interaction.", 
-      "I'm proud of the end results, but it required more nested loops than I would like to see.  And I know I could find ways to streamline this.  So it is my hope that one day I'll find the time to revisit and refactor this one to improve the code, and perhaps to create a crossword generator feature that lets users enter words and clues into a form in order to produce their own custom crosswords that they could share with friends."
+      "This project was the result of those crossed efforts.  I used a basic MVC/OOP approach and created one file to hold an object of puzzle objects containing all the clues and answers, one file to handle the main puzzle functionality, one file to handle updating the UI, and one main script file to wire it all up and listen for user events.", 
+      "At some point I may refactor this one to improve the code and maybe create a crossword generator feature that lets users enter words and clues into a form in order to produce their own custom crosswords that they could share with friends."
     ],
     "stack": [
       "HTML",
       "Responsive CSS using Flexbox, CSS variables and custom UI components",
       "ES6 JavaScript",
+      "DOM manipulation and traversal",
+      "Event handling",
       "OOP programming principles",
-      "MVC application design approach"
+      "MVC application design approach",
+      "GitHub Pages for hosting"
     ],
     "links": [
       {
@@ -157,16 +160,19 @@
     "title": "EZ Hold 'Em",
     "shortDescription": "A Texas Hold 'Em hand simulator.",
     "description": [
-      "Creating my own custom Hold 'Em game has sort of been my white whale.  When I first developed some basic competency with JavaScript, I started trying to create a Hold 'Em game.  But I couldn't get passed creating a shuffled deck.  So I tabled it for a while until I could level up my skills some more.", 
-      "Then, some time later, after my skills had grown, I tried again. I used some OOP to create JS classes for cards, the deck, the dealer, the players and the table.  And I used a sort of MVC approach to control the display.  I got as far as creating and displaying the table, the players, the cards and the blinds.  I created a simple but pleasant UI for starting the game and taking turns.  And game play transitions from one player to the next, following the procedures of Hold 'Em.", 
-      "But I hit a road block figuring out winning hands.  So I stepped away without adding chips and betting and declaring a winner.  But I intend to revisit this at some point when there's time and finish the game."
+      "This was just a side project I started for fun.  The app simulates the dealing and game flow for hands of Texas of Hold 'Em.",
+      "Using OOP concepts, I created JS classes for the cards, deck, table, dealer and players.  An MVC approach allows for logical control of the app's functionality, data state, and updates to the display.",
+      "The next goal is to see if I can add chips for betting and the logic for determining winning hands as well as programming the AI for computer players."
     ],
     "stack": [
       "HTML",
-      "Custom CSS",
-      "JS",
-      "OOP & JS Classes",
-      "MVC"
+      "Responsive, mobile-first CSS",
+      "ES6 JS",
+      "DOM manipulation and traversal",
+      "Event handling",
+      "OOP with JS Classes",
+      "MVC concepts",
+      "GitHub Pages for hosting"
     ],
     "links": [
       {
@@ -185,14 +191,16 @@
     "title": "Project Warm Ups",
     "shortDescription": "A collection of front end coding exercises I designed and built to support the students I mentor.",
     "description": [
-      "Many Treehouse Techdegree students are very new to code, and it's not uncommon for those newcomers to struggle with just getting through the first few projects.  So I was looking for a way to bridge that gap and help better support those students without depriving them of any necessary growing pains or valuable learning experiences.  Thus were invented the Treehouse Techdegree Project Warm Up.", 
-      "These are basic guided coding exercise consisting of a simple front end project containing uncomplicated markup, clean professional styling, and custom tests to validate results.", "Students are provided with basic instructions in the README.md file and then more detailed directions JS comments in a script file.", "I created more than a dozen of these supportive exercises to help students in the first few units, and they have received tremendous feedback."
+      "The numerous project examples on this app are simple coding exercise that I built to help provide students I mentor with a chance to practice the techniques they'll use in their own projects.",
+      "Each consists of a simple front end that provides markup, stylesheets, instructions for completing the challenge and custom tests to check the results of the student's code."       
     ],
     "stack": [
       "HTML",
+      "Custom HTML form elements",
       "CSS",
-      "JS",
-      "Custom testing"
+      "ES6 JS",
+      "Custom testing",
+      "GitHub Pages for hosting"
     ],
     "links": [
       {
@@ -208,29 +216,29 @@
   },
   {
     "id": 7,
-    "title": "Trivia Time",
-    "shortDescription": "A basic trivia app I built to help the students I mentor better understand how to create a modal window to display data retrieved asynchronously from a public API.",
+    "title": "The E Ching",
+    "shortDescription": "A front end app to simulate the ancient divination practice of consulting the oracle with the I Ching.",
     "description": [
-      "Perhaps my favorite project warm up that I created for the FSJS Techdegree was the Trivia project.", 
-      "Student were having trouble creating a modal from asynchronously collected data.  So I leveraged the [Opentdb](https://opentdb.com/api_config.php) API and built a basic front end that displays the trivia questions and guided students on how to create a modal to display the answers as desired."
+      "I built this fun project when I was still pretty new to web development, so please don't judge the code too harshly." 
     ],
     "stack": [
       "HTML",
-      "CSS",
+      "Custom responsive and mobile-first CSS",
+      "Sprite sheets",
       "JS",
-      "Async",
-      "API requests"
+      "Adobe Illustrator for image creation and optimization",
+      "GitHub Pages for hosting"
     ],
     "links": [
       {
         "name": "Repo",
-        "url": "https://github.com/gitrobertpm/simple-trivia-client"
+        "url": "https://github.com/gitrobertpm/eching"
       },
       {
         "name": "Live",
-        "url": "https://gitrobertpm.github.io/simple-trivia-client/"
+        "url": "http://gitrobertpm.github.io/eching/"
       }
     ],
-    "imgKey": "triv"
+    "imgKey": "ec"
   }
 ]

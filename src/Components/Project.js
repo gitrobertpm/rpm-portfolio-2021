@@ -20,7 +20,7 @@ const Project = (props) => {
       <h2 className="project-title flex-child">{props.title}</h2>
 
       {
-        props.shortDescription && <p className="proj-short-description">{ props.shortDescription }</p>
+        props.shortDescription && <p className="proj-short-description">{ props.shortDescription }<br /><br /></p>
       }
 
       <div className="proj-img-wrapper flex-child">
@@ -38,7 +38,6 @@ const Project = (props) => {
       </div>
 
       <div className="proj-link-wrapper flex-child">
-        {/* <h3>Project Links</h3> */}
         {
           props.links.map((link, i) => <a href={ link.url } target="_blank" rel="noreferrer" key={i}>{link.name}</a>)
         }
