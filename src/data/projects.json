@@ -42,8 +42,8 @@
     "title": "A Random User API",
     "shortDescription": "A public API that generates random user data to help students and developers test their front ends.",
     "description": [
-      "This project was built to help the students I mentor.  One of their school projects relies on the [Random User API](https://randomuser.me/) as a third party dependency.  That API is great, but it went offline periodically, which created a need for a backup API", 
-      "So one day after work, when the API was down, I took it upon myself to build my own.  I created a JSON file with an object of arrays containing possible user data.  Additional APIs were used to supply random user images.  I crafted some helper functions to grab random values from the JSON and assemble the info into a new random user object that resembled the schema from the Random User API responses that students were used to using.", 
+      "This project was built to help the students I mentor.  One of their school projects relies on the [Random User API](https://randomuser.me/) as a third party dependency.  That API is great, but it's gone offline periodically, which created a need for a backup API.  So one day after work, when the API was down, I decided to build my own.",
+      "I created a JSON file with an object of arrays containing possible user data.  Additional APIs were used to supply random user images.  I crafted some helper functions to grab random values from the JSON and assemble the info into a new random user object that resembled the schema from the Random User API responses that students were used to using.", 
       "Lastly, I deployed to heroku, and before the next, I had a fully functional backup for the Random User API."
     ],
     "stack": [
@@ -101,8 +101,8 @@
     "title": "React Flickr Gallery",
     "shortDescription": "A React SPA for retrieving photos from the Flickr API.",
     "description": [
-      "This is one of the projects built by the students I mentor.  So I built my own version to better understand the project and help students debug their own projects.",
-      "Create React App was used to start this project.  I created a Flickr account to acquire a key to query their API, which is defined in environment variables: local for development and via Netlify for production.",
+      "The students I mentor have to build a project like this.  So I built this one myself to better support the students.",
+      "Create React App was used to start this project.  I created a Flickr account to acquire a key to query their API, which is defined in environment variables for security.",
       "App uses only functional components with hooks for managing state and lifecycle events.  All state is mainly managed in container components, with data passed down to stateless presentational components.  The application listens for changes to the URL and then updates, searches and displays results as needed. No search results and undefined routes are handled gracefully."
     ],
     "stack": [
@@ -129,8 +129,7 @@
     "title": "Code Crossword",
     "shortDescription": "A front end crossword app to provide students with a fun way to practice their coding vocabulary.",
     "description": [
-      "Coding a custom crossword puzzle had been a goal of mine, and I had been looking for a fun way to help the students I mentor practice their coding vocabulary.",
-      "This project was the result of those crossed efforts.  I used a basic MVC/OOP approach and created one file to hold an object of puzzle objects containing all the clues and answers, one file to handle the main puzzle functionality, one file to handle updating the UI, and one main script file to wire it all up and listen for user events.", 
+      "I created this project mainly to see if I could.  I used a basic MVC/OOP approach and created one file to hold an object of puzzle objects containing all the clues and answers, one file to handle the main puzzle functionality, one file to handle updating the UI, and one main script file to wire it all up and listen for user events.", 
       "At some point I may refactor this one to improve the code and maybe create a crossword generator feature that lets users enter words and clues into a form in order to produce their own custom crosswords that they could share with friends."
     ],
     "stack": [
