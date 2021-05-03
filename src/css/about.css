@@ -90,7 +90,6 @@
 
 .quote-display {
   cursor: pointer;
-  text-align: left;
   max-width: 788px;
   margin: auto;
   padding: 25px;
@@ -143,11 +142,14 @@
   color: white;
   max-width: 768px;
   margin: auto;
-  margin-bottom: 100px;
   padding: 25px;
   background: rgba(0, 0, 10, 0.9);
   border-bottom: 2px solid rgba(86, 145, 165, 1);
   box-shadow: 1px 1px 5px rgba(0, 191, 255, 0.1);
+}
+
+.contact {
+  margin-bottom: 100px;
 }
 
 .contact-heading,

@@ -25,6 +25,7 @@ const Experience = () => {
                 id={ ei.id }
                 key={ i }
                 date={ ei.date }
+                company={ ei.company }
                 title={ ei.title }
                 description={ ei.description }
                 bullets={ ei.bullets ? ei.bullets : null }

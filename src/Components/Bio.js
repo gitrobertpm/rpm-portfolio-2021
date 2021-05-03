@@ -29,15 +29,6 @@ const Bio = () => {
 
   return (
     <div className="bio-container">
-      <div className="quote-box">
-              
-        <div className="quote-display" onClick={ updateQuote }>
-          <p className="quote-heading"><i>Favorite quotes can be revealing.  Click here to see more of mine.</i></p>
-          <p className="quote code">{ quote }</p>
-          <p className="citation"><i>{ citation }</i></p>
-        </div>
-
-      </div>
 
       <div className="bio">
         <h2 className="top-heading bio-heading">Bio</h2>
@@ -48,11 +39,18 @@ const Bio = () => {
         <br />
         <p>Problem solving and overcoming challenges are among my greatest motivators.  Finding solutions and solving puzzles really light my fire.  And I love spending hours working on a project and diving into the code.</p>
         <br />
-        <p>And when I'm not doing that, I love to learn and create and spend time with my family.  I love to watch movies and read and play the guitar and play video games.  I love to research the meaning of life and truth and the true nature of reality and the human condition and experience.  And I love to seek out magical moments and howl at the moon when time and the situation permits. <span>😎</span></p>
-
-        <img className="my-logo" src={myLogo} alt="My Logo" />
+        <p>And when I'm not doing that, I love to learn and create and spend time with my family.  I love to watch movies and read and play the guitar and play video games.  I love to research the meaning of life and truth and the true nature of reality and the human condition and experience. <span>😎</span></p>
       </div>
 
+      <div className="quote-box">  
+        <div className="quote-display" onClick={ updateQuote }>
+          <h2 className="top-heading bio-heading">Quotes</h2> 
+          <p className="quote-heading"><i>Favorite quotes can be revealing.  Click here to see more of mine.</i></p>
+          <p className="quote code">{ quote }</p>
+          <p className="citation"><i>{ citation }</i></p>
+        </div>
+        <img className="my-logo" src={myLogo} alt="My Logo" />
+      </div>
     </div>
   ); 
 };

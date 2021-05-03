@@ -5,14 +5,15 @@ const ExpItem = (props) => {
     <div className="exp-item" key={ props.id }>
       
       <p className="exp-date">{ props.date }</p>
-      <h2 className="exp-title">{ props.title }</h2>
+      <h2 className="exp-company">{ props.company }</h2>
+      <h3 className="exp-title">{ props.title }</h3>
       <p className="exp-description">{ props.description }</p>
 
       {
         props.bullets &&
 
         <div className="exp-bullets-container">
-          <h3 className="exp-bullets-heading">{ props.bullets.heading }</h3>
+          {/* <h3 className="exp-bullets-heading">{ props.bullets.heading }</h3> */}
           <ul className="exp-bullets-points">
 
             {

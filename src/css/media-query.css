@@ -186,6 +186,13 @@
     border-radius: 4px 4px 0 0;
   }
 
+  .exp-date,
+  .exp-company,
+  .exp-title {
+    text-align: left;
+    margin-left: 10px;
+  }
+
   .prop-box {
     border-radius: 4px 4px 0 0;
   }
