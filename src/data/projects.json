@@ -39,7 +39,7 @@
   },
   {
     "id": 1,
-    "title": "A Random User API",
+    "title": "EZ Random User API",
     "shortDescription": "A public API that generates random user data to help students and developers test their front ends.",
     "description": [
       "This project was built to help the students I mentor.  One of their school projects relies on the [Random User API](https://randomuser.me/) as a third party dependency.  That API is great, but it's gone offline periodically, which created a need for a backup API.  So one day after work, when the API was down, I decided to build my own.",
@@ -49,7 +49,7 @@
     "stack": [
       "Node.js",
       "Express framework",
-      "Express App Generator module",
+      "Express App Generator",
       "JSON for original data store",
       "Functional JS for retrieving random data for JSON store",
       "Heroku for hosting the API",
@@ -59,7 +59,7 @@
     "links": [
       {
         "name": "API repo",
-        "url": "https://github.com/gitrobertpm/fsjs-public-api-backup"
+        "url": "https://github.com/gitrobertpm/ez-random-user-api"
       },
       {
         "name": "Client repo",
