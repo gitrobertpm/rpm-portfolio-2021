@@ -73,6 +73,38 @@
     "imgKey": "rubu"
   },
   {
+    "id": 5,
+    "title": "EZ Hold 'Em",
+    "shortDescription": "A Texas Hold 'Em hand simulator.",
+    "description": [
+      "This was just a side project I started for fun.  The app simulates the dealing and game flow for hands of Texas of Hold 'Em.",
+      "Using OOP concepts, I created JS classes for the cards, deck, table, dealer and players.  An MVC approach allows for logical control of the app's functionality, data state, and updates to the display.",
+      "The next goal is to see if I can add chips for betting and the logic for determining winning hands as well as programming the AI for computer players."
+    ],
+    "stack": [
+      "HTML",
+      "Responsive, mobile-first CSS",
+      "Sass",
+      "ES6 JS",
+      "DOM manipulation and traversal",
+      "Event handling",
+      "OOP with JS Classes",
+      "MVC concepts",
+      "GitHub Pages for hosting"
+    ],
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/ez-holdem"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/ez-holdem/"
+      }
+    ],
+    "imgKey": "he"
+  },
+  {
     "id": 2,
     "title": "My Portfolio",
     "shortDescription": "A React SPA portfolio showcasing my work.",
@@ -153,38 +185,6 @@
       }
     ],
     "imgKey": "cw"
-  },
-  {
-    "id": 5,
-    "title": "EZ Hold 'Em",
-    "shortDescription": "A Texas Hold 'Em hand simulator.",
-    "description": [
-      "This was just a side project I started for fun.  The app simulates the dealing and game flow for hands of Texas of Hold 'Em.",
-      "Using OOP concepts, I created JS classes for the cards, deck, table, dealer and players.  An MVC approach allows for logical control of the app's functionality, data state, and updates to the display.",
-      "The next goal is to see if I can add chips for betting and the logic for determining winning hands as well as programming the AI for computer players."
-    ],
-    "stack": [
-      "HTML",
-      "Responsive, mobile-first CSS",
-      "Sass",
-      "ES6 JS",
-      "DOM manipulation and traversal",
-      "Event handling",
-      "OOP with JS Classes",
-      "MVC concepts",
-      "GitHub Pages for hosting"
-    ],
-    "links": [
-      {
-        "name": "Repo",
-        "url": "https://github.com/gitrobertpm/ez-holdem"
-      },
-      {
-        "name": "Live",
-        "url": "https://gitrobertpm.github.io/ez-holdem/"
-      }
-    ],
-    "imgKey": "he"
   },
   {
     "id": 6,

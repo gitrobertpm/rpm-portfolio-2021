@@ -20,8 +20,10 @@ const Home = () => {
       <header className="App-header">
 
         <h1>Robert PM</h1>
-        <h2 className="rainbow"><code>Full Stack <img className="p-img main-js-logo" src={jsImg} alt="JavaScript icon" /> Developer</code></h2>
-        <h3 className="nunito">Portfolio - <code>2021</code></h3>
+        <h2 className="rainbow"><code>Web Developer</code></h2>
+        <img className="p-img main-js-logo" src={jsImg} alt="JavaScript icon" />
+        <h3 className="rainbow"><code>Front End &amp; Full Stack JavaScript</code></h3>
+        <h4 className="nunito">Portfolio - <code>2021</code></h4>
 
         <div className="header-contact-link-box">
           <Link to="/about/contact" title="Contact"><img src={mail} alt="Mail icon" /></Link>
