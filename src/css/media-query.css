@@ -163,8 +163,9 @@
     text-align: left;
     top: 0px;
     left: 0px;
-    width: 515px;
     width: 100%;
+    padding-top: 6px;
+    padding-bottom: 12px;
     border-radius: 0 0 4px 0;
   }
 

@@ -3,30 +3,15 @@
   position: relative;
   perspective: 750px;
   display: inline-block;
-  min-width: 100px;
   padding-top: 7px;
-  padding-bottom: 10px;
-  color: deepskyblue;
-  background:rgba(0, 191, 255, 0.1);
-  border-bottom: 2px solid rgba(0, 191, 255, 0.9);
-  box-shadow: 3px 3px 5px rgba(0, 191, 255, 0.3) inset, -3px -3px 5px rgba(0, 191, 255, 0.3) inset;
-  filter: drop-shadow(1px 1px 3px rgba(0, 191, 255, 0.7));
 }
 
 .about-container .active {
-  color: tomato;
-  background:rgba(255, 99, 71, 0.1);
-  border-bottom: 2px solid rgba(255, 99, 71, 0.9);
-  box-shadow: 3px 3px 5px rgba(255, 99, 71, 0.3) inset, -3px -3px 5px rgba(255, 99, 71, 0.3) inset;
-  filter: drop-shadow(1px 1px 3px rgba(255, 99, 71, 0.5));
+  color: deepskyblue;
 }
 
 .about-container a:hover {
   color: tomato;
-  background:rgba(255, 99, 71, 0.1);
-  border-bottom: 2px solid rgba(255, 99, 71, 0.9);
-  box-shadow: 3px 3px 5px rgba(255, 99, 71, 0.3) inset, -3px -3px 5px rgba(255, 99, 71, 0.3) inset;
-  filter: drop-shadow(1px 1px 3px rgba(255, 99, 71, 0.5));
 }
 
 .about-container {
