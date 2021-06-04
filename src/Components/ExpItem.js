@@ -13,7 +13,6 @@ const ExpItem = (props) => {
         props.bullets &&
 
         <div className="exp-bullets-container">
-          {/* <h3 className="exp-bullets-heading">{ props.bullets.heading }</h3> */}
           <ul className="exp-bullets-points">
 
             {

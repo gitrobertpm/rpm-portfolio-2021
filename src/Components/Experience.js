@@ -13,8 +13,6 @@ const Experience = () => {
     <div className="experience">
       
       <h2 className="top-heading experience-heading">Experience</h2>
-      <p className="exp-disclaimer">Reversed Chronology</p>
-      <p className="exp-sub-disclaimer">To start from the beginning, scroll to the bottom and work your way up.</p>
 
       <div className="exp-item-container">
 
@@ -28,7 +26,7 @@ const Experience = () => {
                 company={ ei.company }
                 title={ ei.title }
                 description={ ei.description }
-                bullets={ ei.bullets ? ei.bullets : null }
+                bullets={ ei.bullets && ei.bullets }
               />
             );
           })
