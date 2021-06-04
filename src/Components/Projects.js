@@ -60,7 +60,7 @@ const Projects = () => {
                 description={proj.description}
                 stack={proj.stack}
                 links={proj.links}
-                imgs={proj.imgKey ? imgObj[proj.imgKey] : null}
+                imgs={proj.imgKey && imgObj[proj.imgKey]}
               />
             );
           })
