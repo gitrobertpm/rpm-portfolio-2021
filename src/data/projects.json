@@ -254,7 +254,7 @@
       "Sprite sheets",
       "SVG + animations",
       "Custom responsive and mobile-first CSS",
-      "Css Animations",
+      "CSS Animations",
       "Sass",
       "JS",
       "DOM manipulation",
@@ -263,11 +263,11 @@
       "Custom spreadsheets",
       "Filter and Pagination",
       "Custom form validation",
-      "Public APIs",
+      "Public APIs and AJAX",
       "Web Scraping",
       "Graphs",
       "Video and Audio APIs",
-      "GitHub Pages for hosting"
+      "GitHub Pages"
     ],
     "links": [
       {
@@ -275,17 +275,16 @@
         "url": "http://gitrobertpm.github.io/myTreehouseProjects/"
       },
       {
-        "name": "2017 Port",
-        "url": "https://gitrobertpm.github.io/myPortfolio/"
-      }
-      ,
+        "name": "2015 Port",
+        "url": "http://gitrobertpm.github.io/thewayunraveled/"
+      },
       {
         "name": "2016 Port",
         "url": "https://gitrobertpm.github.io/rpmPortfolio/"
       },
       {
-        "name": "2015 Port",
-        "url": "http://gitrobertpm.github.io/thewayunraveled/"
+        "name": "2017 Port",
+        "url": "https://gitrobertpm.github.io/myPortfolio/"
       }
     ],
     "imgKey": "os"
