@@ -28,6 +28,12 @@ import rfgnr from '../img/projects/rfg-nr.PNG';
 import tdwu from '../img/projects/td-wu.PNG';
 import tdwu2 from '../img/projects/td-wu-2.PNG';
 import tdwu3 from '../img/projects/triv-que.PNG';
+import th1 from '../img/projects/th-projs.PNG';
+import pt15 from '../img/projects/port-2015.PNG';
+import pt161 from '../img/projects/port-2016-1.PNG';
+import pt162 from '../img/projects/port-2016-2.PNG';
+import pt163 from '../img/projects/port-2016-3.PNG';
+import pt17 from '../img/projects/port-2017.PNG';
 
 const Projects = () => {
 
@@ -40,7 +46,8 @@ const Projects = () => {
     ec: [ecOne, ecTwo, ecThree],
     he: [heStart, heFlop, heRiver],
     rfg: [rfg, rfgnr],
-    tdwu: [tdwu, tdwu2, tdwu3]
+    tdwu: [tdwu, tdwu2, tdwu3],
+    os: [th1, pt15, pt161, pt162, pt163, pt17]
   }
 
   return (

@@ -240,5 +240,54 @@
       }
     ],
     "imgKey": "ec"
+  },
+  {
+    "id": 8,
+    "title": "The Early Years",
+    "shortDescription": "I started building projects and sharing my web art at an early stage.  Maybe before I should have? 😊 \n Here's some samples of that early work.",
+    "description": [
+      "Displayed in this section is a fun little, themed site to display the educational Treehouse projects I built while going through the old Treehouse curriculum, as well as a few of the portfolios I built previously, before I knew how to develop with React and server side technologies." 
+    ],
+    "stack": [
+      "HTML",
+      "Website and Asset optimization",
+      "Sprite sheets",
+      "SVG + animations",
+      "Custom responsive and mobile-first CSS",
+      "Css Animations",
+      "Sass",
+      "JS",
+      "DOM manipulation",
+      "Accessibility",
+      "Illustrator",
+      "Custom spreadsheets",
+      "Filter and Pagination",
+      "Custom form validation",
+      "Public APIs",
+      "Web Scraping",
+      "Graphs",
+      "Video and Audio APIs",
+      "GitHub Pages for hosting"
+    ],
+    "links": [
+      {
+        "name": "Sch Projs",
+        "url": "http://gitrobertpm.github.io/myTreehouseProjects/"
+      },
+      {
+        "name": "2017 Port",
+        "url": "https://gitrobertpm.github.io/myPortfolio/"
+      }
+      ,
+      {
+        "name": "2016 Port",
+        "url": "https://gitrobertpm.github.io/rpmPortfolio/"
+      },
+      {
+        "name": "2015 Port",
+        "url": "http://gitrobertpm.github.io/thewayunraveled/"
+      }
+    ],
+    "imgKey": "os"
   }
 ]
