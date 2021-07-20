@@ -7,7 +7,9 @@ import projectsData from '../data/projects.json';
 
 /* Img imports imports */
 import portHome from '../img/projects/port-home.PNG';
+import portHoMo from '../img/projects/port-ho-mo.PNG';
 import tsHome from '../img/projects/ts-home-2.PNG';
+import tsMo from '../img/projects/ts-mo.PNG';
 import tsSettings from '../img/projects/ts-settings-2.PNG';
 import tsTruths from '../img/projects/ts-truths-2.PNG';
 import tsTruth from '../img/projects/ts-truth-2.PNG';
@@ -23,8 +25,10 @@ import ecThree from '../img/projects/ec-hex.PNG';
 import heStart from '../img/projects/he-start.PNG';
 import heFlop from '../img/projects/he-flop.PNG';
 import heRiver from '../img/projects/he-river.PNG';
+import heMo from '../img/projects/he-mo.PNG';
 import rfg from '../img/projects/rfg.PNG';
 import rfgnr from '../img/projects/rfg-nr.PNG';
+import rfgmo from '../img/projects/rfg-mo.PNG';
 import tdwu from '../img/projects/td-wu.PNG';
 import tdwu2 from '../img/projects/td-wu-2.PNG';
 import tdwu3 from '../img/projects/triv-que.PNG';
@@ -39,13 +43,13 @@ const Projects = () => {
 
   /* Connect imported images with their respective projects */
   const imgObj = {
-    port: [portHome],
-    ts: [tsHome, tsTruths, tsTruth, tsSettings],
+    port: [portHome, portHoMo],
+    ts: [tsHome, tsMo, tsTruths, tsTruth, tsSettings],
     rubu: [ruBuJson, ruBuReadme, ruBuSample],
     cw: [cwMath, cwOne, cwTwo],
     ec: [ecOne, ecTwo, ecThree],
-    he: [heStart, heFlop, heRiver],
-    rfg: [rfg, rfgnr],
+    he: [heStart, heFlop, heRiver, heMo],
+    rfg: [rfg, rfgnr, rfgmo],
     tdwu: [tdwu, tdwu2, tdwu3],
     os: [th1, pt15, pt161, pt162, pt163, pt17]
   }

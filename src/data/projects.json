@@ -73,6 +73,34 @@
     "imgKey": "rubu"
   },
   {
+    "id": 6,
+    "title": "Project Warm Ups",
+    "shortDescription": "A collection of front end coding exercises I designed and built to support the students I mentor.",
+    "description": [
+      "The numerous project examples on this app are simple coding exercise that I built to help provide students I mentor with a chance to practice the techniques they'll use in their own projects.",
+      "Each consists of a simple front end that provides markup, stylesheets, instructions for completing the challenge and custom tests to check the results of the student's code."       
+    ],
+    "stack": [
+      "HTML",
+      "Custom HTML form elements",
+      "CSS",
+      "ES6 JS",
+      "Custom testing",
+      "GitHub Pages for hosting"
+    ],
+    "links": [
+      {
+        "name": "Repo",
+        "url": "https://github.com/gitrobertpm/td-warm-ups"
+      },
+      {
+        "name": "Live",
+        "url": "https://gitrobertpm.github.io/td-warm-ups/"
+      }
+    ],
+    "imgKey": "tdwu"
+  },
+  {
     "id": 5,
     "title": "EZ Hold 'Em",
     "shortDescription": "A Texas Hold 'Em hand simulator.",
@@ -103,30 +131,6 @@
       }
     ],
     "imgKey": "he"
-  },
-  {
-    "id": 2,
-    "title": "My Portfolio",
-    "shortDescription": "A React SPA portfolio showcasing my work.",
-    "description": [
-      "I utilized modern React and JavaScript techniques to craft this portfolio to showcase my skills, creativity, what I like to do, and some of the things I've built over the last few years."
-    ],
-    "stack": [
-      "Create React App with BrowserRouter",
-      "Functional components and hooks for state and lifecycle events",
-      "JSON for modularization and convenient data tracking and updating",
-      "Custom, responsive, mobile-first CSS with grid and flexbox layout",
-      "Google fonts, and Google Forms for the contact component",
-      "Affinity Designer for image creation and optimization",
-      "Hosted on Netlify"
-    ],
-    "links": [
-      {
-        "name": "repo",
-        "url": "https://github.com/gitrobertpm/rpm-portfolio-2021"
-      }
-    ],
-    "imgKey": "port"
   },
   {
     "id": 3,
@@ -187,34 +191,6 @@
     "imgKey": "cw"
   },
   {
-    "id": 6,
-    "title": "Project Warm Ups",
-    "shortDescription": "A collection of front end coding exercises I designed and built to support the students I mentor.",
-    "description": [
-      "The numerous project examples on this app are simple coding exercise that I built to help provide students I mentor with a chance to practice the techniques they'll use in their own projects.",
-      "Each consists of a simple front end that provides markup, stylesheets, instructions for completing the challenge and custom tests to check the results of the student's code."       
-    ],
-    "stack": [
-      "HTML",
-      "Custom HTML form elements",
-      "CSS",
-      "ES6 JS",
-      "Custom testing",
-      "GitHub Pages for hosting"
-    ],
-    "links": [
-      {
-        "name": "Repo",
-        "url": "https://github.com/gitrobertpm/td-warm-ups"
-      },
-      {
-        "name": "Live",
-        "url": "https://gitrobertpm.github.io/td-warm-ups/"
-      }
-    ],
-    "imgKey": "tdwu"
-  },
-  {
     "id": 7,
     "title": "The E Ching",
     "shortDescription": "A front end app to simulate the ancient divination practice of consulting the oracle with the I Ching.",
@@ -240,6 +216,30 @@
       }
     ],
     "imgKey": "ec"
+  },
+  {
+    "id": 2,
+    "title": "My Portfolio",
+    "shortDescription": "A React SPA portfolio showcasing my work.",
+    "description": [
+      "I utilized modern React and JavaScript techniques to craft this portfolio to showcase my skills, creativity, what I like to do, and some of the things I've built over the last few years."
+    ],
+    "stack": [
+      "Create React App with BrowserRouter",
+      "Functional components and hooks for state and lifecycle events",
+      "JSON for modularization and convenient data tracking and updating",
+      "Custom, responsive, mobile-first CSS with grid and flexbox layout",
+      "Google fonts, and Google Forms for the contact component",
+      "Affinity Designer for image creation and optimization",
+      "Hosted on Netlify"
+    ],
+    "links": [
+      {
+        "name": "repo",
+        "url": "https://github.com/gitrobertpm/rpm-portfolio-2021"
+      }
+    ],
+    "imgKey": "port"
   },
   {
     "id": 8,
