@@ -19,7 +19,7 @@ const Home = () => {
     <React.Fragment>
       <header className="App-header">
 
-        <h1>Robert PM</h1>
+        <h1>Robert Manolis</h1>
         <h2 className="rainbow"><code>Web Developer</code></h2>
         <img className="p-img main-js-logo" src={jsImg} alt="JavaScript icon" />
         <h3 className="rainbow"><code>Front End &amp; Full Stack JavaScript</code></h3>
